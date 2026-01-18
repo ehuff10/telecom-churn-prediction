@@ -6,5 +6,9 @@ by Ethan Huffman
 
 # Data Understanding
 
+# Data Analysis
 
+# Modeling
+
+# Conclusion
 
