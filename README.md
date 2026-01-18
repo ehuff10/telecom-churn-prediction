@@ -24,8 +24,26 @@ The Streamlit application allows users to:
 -Simulate how the model would be used by a real retention team
 - streamlit run app.py
 # Reproducibility
+pip install -r requirements.txt
+Google Colab
+This project is fully compatible with Google Colab.
+Steps:
+- Upload the notebook to Colab
+- Run the first setup cell (which clones the repository)
+- Execute all cells in order
+- The notebook automatically adjusts paths when running in Colab.
+telecom-churn-prediction/
+# Citations
+Data Sources
+- IBM Telco Customer Churn Dataset
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
+- BigML Telecommunications Churn Dataset
+https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
 
+- Streamlit App Inspiration Video
+ https://youtu.be/ZZ4B0QUHuNc?si=9eAn2_0imufvIJL0
+This video inspired the design and structure of the Streamlit churn prediction application included in this project.
 
 # Conclusion
 
