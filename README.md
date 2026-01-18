@@ -9,7 +9,7 @@ Telecom companies need a reliable way to identify customers who are likely to ch
 
 This project prioritizes recall for churners, ensuring that high-risk customers are captured even if it results in more false positives.
 # Data Understanding
-
+The final Gradient Boosting Classifier produced 450 true positives, 41 false negatives, 780 false positives, and 657 true negatives, resulting in an overall accuracy of approximately 68 percent, churn recall of approximately 85 percent, and churn precision of approximately 43 percent. The high recall means the model successfully identifies the vast majority of customers who actually churn, while the lower precision reflects a higher number of customers flagged as at risk who would not have churned. This tradeoff was intentional because false negatives or missed churners directly result in lost revenue, whereas false positives only increase retention outreach cost, which is far less damaging to the business. Accuracy was deprioritized because in imbalanced churn data, a high accuracy model can still fail by predicting most customers as non churners and missing those who are truly at risk.
 # Modeling
 - Data preprocessing includes handling missing values, scaling numeric features, encoding categorical variables, and addressing class imbalance using SMOTE.
 - A baseline Logistic Regression model is used for comparison.
