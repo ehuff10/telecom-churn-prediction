@@ -17,6 +17,8 @@ The combined churn dataset includes customer tenure, billing behavior, service u
 - A custom probability threshold is applied to align predictions with business goals.
 
 - Customers are grouped into risk tiers (Low, Medium, High, Very High) based on predicted churn probability.
+# Conclusion
+This project demonstrates how a recall focused churn prediction model can be used to proactively identify customers at risk of leaving and support targeted retention efforts before revenue is lost. By combining multiple telecommunications datasets and applying a Gradient Boosting Classifier with a business aligned decision threshold, the final model prioritizes capturing churners rather than maximizing surface level accuracy. While the approach increases false positives, this cost is outweighed by the value of preventing customer attrition through early intervention. The inclusion of risk tiers and a deployable application further bridges the gap between analysis and real world use, enabling stakeholders to act on predictions rather than interpret raw metrics. Overall, this solution provides a practical and scalable framework for churn prevention that balances technical performance with real business impact.
 # Streamlit app
 The Streamlit application allows users to:
 -Enter customer information using dropdowns and numeric inputs
@@ -45,5 +47,5 @@ https://www.kaggle.com/datasets/mnassrib/telecom-churn-datasets
  https://youtu.be/ZZ4B0QUHuNc?si=9eAn2_0imufvIJL0
 This video inspired the design and structure of the Streamlit churn prediction application included in this project.
 
-# Conclusion
+
 
