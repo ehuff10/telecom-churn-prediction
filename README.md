@@ -22,11 +22,11 @@ This project demonstrates how a recall focused churn prediction model can be use
 # Streamlit app
 The Streamlit application allows users to:
 
--Enter customer information using dropdowns and numeric inputs
+- Enter customer information using dropdowns and numeric inputs
 
--Generate a churn probability and risk tier
+- Generate a churn probability and risk tier
 
--Simulate how the model would be used by a real retention team
+- Simulate how the model would be used by a real retention team
 
 - streamlit run app.py
 # Reproducibility
